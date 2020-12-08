@@ -1,0 +1,155 @@
+/* STYLE SHEET FOR (personal web site) */
+body
+{
+margin:3px;
+background-color:#CCCCCC;
+}
+h1
+{
+font-weight: bold;
+text-decoration: underline;
+font-size: 160%;
+font-family: times new roman;
+
+}
+
+/* home page style */
+
+img
+{
+	position: absolute;
+	margin-left:20px;
+	width: 1440px;
+	height: 400px;
+}
+img.floatright
+{
+position: absolute;
+left: 900px;
+top: 630px;
+float: right;
+height: 250px;
+width: 280px;
+	
+}
+
+
+/* home page style end here */
+
+
+/*guestbook style */
+body
+{
+	font-size: 110%;
+	padding-left: 100px;
+	
+}
+
+img.center
+{
+	position: relative;
+	top: 30px;
+	width: 700px;
+	height: 150px;
+	left: 0px;
+	
+}
+/*guestbook style ends here */
+
+/*interest style */
+
+img.asmara
+{
+	position: relative;
+	top: 30px;
+	width: 500px;
+	height: 150px;
+	left: 10px;;
+	}
+img.massawa
+{
+	position: relative;
+	top: 30px;
+	width: 500px;
+	height: 150px;
+	left: 100px;;
+	}	
+
+img.USA 
+{
+	position: absolute;
+	width: 150px;
+	height: 100px;
+	right: 910px;
+	top: 510px;
+}
+img.culture 
+{
+	position: absolute;
+	width: 150px;
+	height: 100px;
+	right: 1200px;
+	top: 720px;
+}
+img.rculture
+{
+	position: absolute;
+	width: 150px;
+	height: 100px;
+	right: 1000px;
+	top: 720px;
+}
+img.afar
+{
+	position: absolute;
+	width: 150px;
+	height: 100px;
+	right: 800px;
+	top: 720px;
+}
+
+/*interest style ends here */	
+
+/* Resume style starts here */
+ 
+table
+{
+	width: 800px;
+	height: 95px;
+	cellspacing: 1;
+	cellpadding: 1;
+	border: 2;
+}
+ h4
+ {
+	text-align: left;
+	margin-left:280px;
+}	 
+
+/* resume style ends here */
+
+/* reflection style starts here */
+
+img.pro
+{
+	position: absolute;
+	width: 380px;
+	height: 303px;
+	right: 190px;
+	top: 680px;
+}
+
+img.pro1
+{
+	position: absolute;
+	margin-left:30px;
+	width: 1410px;
+	height: 350px;
+}
+/* reflection style ends here */
+
+	
+	
+
+
+
