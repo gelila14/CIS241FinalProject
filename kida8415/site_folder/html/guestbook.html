@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="Keywords" content="HTML5, CSS, my wbsite" />
+	<meta name="Description" content="Simple XHTML page for my website" />
+	<meta name="author" content="Gelila Kidane" />
+	<meta name="robots" content="noindex" />
+	<meta charset="utf-8"/>
+	<title>guestbook page - Gelila Kidane</title>
+<link rel="stylesheet" type="text/css" href="../css/mystyle.css"/>
+
+
+<style>
+img {
+	position: absolute;
+	left: 700px;
+	top: 820px;
+	height: 230px;
+	width: 450px;
+	}
+.button { 
+	height: 40px; 
+	width: 120px; 
+} 
+</style>
+
+</head>
+<body>
+<h1>
+ <a href="../html/home.html">Home</a> |
+ <a href="../html/resume.html">Resume</a> |
+ <a href="../html/interests.html">Interests</a> |
+ <a href="../html/reflections.html">Reflections</a> |
+ <a href="../html/guestbook.html">Guestbook</a> |
+</h1>
+<img src="../images/th.jpg" alt="guest image" class="center" />
+<br/>
+<br/>
+
+<h3>Please Fill Your Information In My Guestbook</h3>
+<br/>
+<form
+method="post"
+action="http://ss1.ciwcertified.com/cgi-bin/process.pl">
+Enter Your Name: <input type="text" name="Name" size="40" />
+<br/>
+<br/>
+Enter Your E-mail: <input type="text" name="Email" size="40"/>
+<br/>
+<br/><br/>
+Enter Your Website Address:?
+<input type="text" name="country" size="40" value="http://">
+<br/>
+<br/>
+ How did you find us?<br/>
+        <input type="radio" name="we_experience" value="None"/> Just surfed in <br/>
+        <input type="radio" name="web_experience" value="Beginner"/> Word of mouth <br/>
+		<input type="radio" name="web_experience" value="Immediate"/> By search engine <br/> 
+        <input type="radio" name="web_experience" value="Advance"/> A friend sent me <br/>
+
+<br/>
+Should we add you to our mailing list?
+<input type="checkbox" name="mailinglist"/><br/>
+<br/>
+
+<br/>
+How did you find my website?
+<br/>
+<select name="website">
+<option>Select one</option>
+<option>I'm a friend</option>
+<option>A friend directed me to your site</option>
+<option>School Web Site</option>
+<option>A search engine directed me to your site</option>
+<option>I came across your site by accident</option>
+<option>Other</option>
+</select>
+<br/>
+<br/>
+Comments:<br/>
+<textarea name="comments" cols="50" rows="6">
+Enter your message here.
+</textarea>
+<br/>
+<br/>
+<input type="submit" value="Submit" class="button" />
+<input type="reset" class="button" />
+</form>
+<br/>
+
+<img src="../images/guest.jpg" alt="Guestbook" />
+<br/><br/><br/><br/><br/>
+<h4 style="text-align: center">Thank you for your time!</h4>
+<br/>
+</body>
+</html>
